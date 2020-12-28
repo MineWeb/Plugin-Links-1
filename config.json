@@ -1,27 +1,27 @@
 {
-  "name":"Links",
-  "admin_menus": {
-    "GLOBAL__ADMIN_PLUGINS": {
-      "Links": {
-        "icon": "link",
-        "route": "/admin/links"
-      }
+    "name": "Links",
+    "author": "nivcoo",
+    "version": "1.0.2",
+    "admin_menus": {
+        "GLOBAL__ADMIN_PLUGINS": {
+            "Links": {
+                "icon": "link",
+                "route": "/admin/links"
+            }
+        }
+    },
+    "navbar_routes": {
+        "Links": "/links"
+    },
+    "useEvents": false,
+    "permissions": {
+        "available": [],
+        "default": {
+            "0": [],
+            "2": []
+        }
+    },
+    "requirements": {
+        "CMS": "^1.11.0"
     }
-  },
-   "navbar_routes":{
-      "Links":"/links"
-   },
-  "author":"nivcoo",
-  "version":"1.0.1",
-  "useEvents":false,
-  "permissions" : {
-    "available" : [],
-    "default" : {
-      "0" : [],
-      "2" : []
-    }
-  },
-  "requirements" : {
-    "CMS" : "^1.6.0"
-  }
 }
